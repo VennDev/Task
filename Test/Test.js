@@ -1,5 +1,5 @@
-const Task = require("./Task.js");
-const TaskScheduler = require("./TaskScheduler.js");
+const Task = require("../Task.js");
+const TaskScheduler = require("../TaskScheduler.js");
 
 let task = new Task(20, TaskScheduler.delay);
 task.onRun = function(cancellable)
